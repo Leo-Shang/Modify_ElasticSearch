@@ -1,0 +1,1 @@
+docker run -it --rm -v $PWD/src:/workdir/src -v $PWD/src/stopwords.txt:/usr/share/elasticsearch/config/stopwords.txt wooya/cmpt456a4 q3.py
